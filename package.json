@@ -1,5 +1,6 @@
+
 {
-  "name": "main",
+  "name": "zookeepr",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -7,13 +8,18 @@
     "test": "jest",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbottoni/zookeepr.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbottoni/zookeepr/issues"
+  },
+  "homepage": "https://github.com/dbottoni/zookeepr#readme",
   "dependencies": {
     "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "jest": "^25.1.0"
   }
 }
